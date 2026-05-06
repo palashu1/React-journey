@@ -22,3 +22,8 @@ body{
   margin: 20px;
   padding: 20px;
 }
+
+.nav{
+  background-color: rgb(15, 90, 116);
+  padding: 20px;
+}
