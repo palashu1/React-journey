@@ -2,7 +2,7 @@ import React from "react";
 
 const App = () => {
   const submitHandler = (e) => {
-    e.preventDefault();
+    e.preventDefault(); // Prevents the default form submission behavior (page reload) and this called form handling in React. It allows you to handle the form submission in JavaScript without causing a page refresh.
     console.log("Form Submit");
   };
   return (
